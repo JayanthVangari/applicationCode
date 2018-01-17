@@ -19,76 +19,8 @@ and run commands:
 	npm run server
 	
 
-3. npm start
+3. 	npm start
 	
 	
 and application runs on http://localhost:3000/
-
-
--> You can find server logs in err.log and out.log
-
-
-
-
-
-Folder Structure:
-
-app-submission
-|__ public
-|	|__favicon.ico
-|	|__index.html
-|	|__manifest.json
-| 	
-|__server 				/* contains server code */
-|	|__config
-|	|	|__database.js
-|	|
-|	|__models
-|	| |__Applicants.js
-|	|
-|	|__routes
-|	|	|___index.js
-|	|
-|	|__views
-|	|	|__index.jade
-|	|	|__error.jade
-|	|	|__layout.jade	
-|	|__app.js
-|	|
-|____src				/* react front end code */
-|	|	|__	actions
-|	|	|	|__actionTypes.js
-|	|	|	|__adminActions.js
-|	|	|	|__code.js
-|	| 	|	|__index.js
-|	|	|	|__users.js
-|	|	|__components
-|	|	|	|___Admin
-|	|	|	|	|__Results.js	
-|	|	|	|	|__Results.css
-|	|	|	|___codesubmit
-|	|	|	|	|__codeSubmission.js	
-|	|	|	|	|__codeSubmission.css
-|	|	|	|___Home
-|	|	|	|	|__Home.js	
-|	|	|	|	|__Home.css
-|	|	|__store
-|	|	|	|___reducers
-|	|	|	|	|__	adminReducer.js
-|	|	|	|	|__users.js
-|	|	|__App.js
-|	|	|__App.css
-|	|	|__App.test.js
-|	|	|__index.css
-|	|	|__index.js
-|	|__package.json			/* dependencies */
-|	|__package-lock.json
-|	|__err.log				/* server logs*/
-|	|__out.log
-|	|__README.md			/* this file*/
-
-
-
-	
-
 
