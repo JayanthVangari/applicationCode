@@ -6,9 +6,9 @@ make sure you have Nodejs (v9.3.0) ,npm , react (v16.2.0) and mongoDB(v3.2.10) i
 ## To run application
 
 
-firstly, spin up mongodb server with command -> mongod --dbpath=data/db/ ( make sure you already created data/db/ directory )
+first, spin up mongodb server with command -> mongod --dbpath=data/db/ ( make sure you already created data/db/ directory )
 
-secondly, Navigate to the application folder with 'package.json' file
+second, Navigate to the application folder with 'package.json' file
 
 and run commands:
 
