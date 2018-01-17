@@ -1,0 +1,48 @@
+
+.form-control:focus{
+    border-color: #000000 ;
+}
+
+legend{
+    float: left;
+}
+
+.errortext{
+    text-align: center;
+    color :#ff0000;
+    background-color: transparent;
+    border :  none;
+    font-size: 1em;
+}
+.error:focus, .error{
+    border :  1px solid #ff0000;
+    border-color: #ff0000;
+}
+
+.noerror{
+    display: none;
+}
+
+.submit-logo {
+    animation: submit-logo-spin infinite 2s linear;
+    height: 80px;
+}
+
+.sweet-loading {
+    position: absolute;
+    top: 46%;
+    left: 46%;
+}
+
+.codeSubmitFeedback{
+    position: absolute;
+    font-size: x-large;
+    top: 50%;
+    left:35%;
+    font-weight: bolder;
+}
+
+@keyframes submit-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}

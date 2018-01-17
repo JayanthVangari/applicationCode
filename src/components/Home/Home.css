@@ -1,0 +1,48 @@
+
+.form-control:focus{
+    border-color: #000000 ;
+}
+
+legend{
+    float: left;
+}
+.modal-body{
+    height: 50vh;
+    text-align: center;
+    margin-top: 25vh;
+}
+
+.modal-content{
+    background-color: azure;
+}
+
+.errortext{
+    text-align: center;
+    color :#ff0000;
+    background-color: transparent;
+    border :  none;
+    font-size: 1em;
+}
+.error:focus, .error{
+    border :  2px solid #ff0000;
+    border-color: #ff0000;
+}
+
+.noerror{
+    display: none;
+}
+
+.submit-logo {
+    animation: submit-logo-spin infinite 2s linear;
+    height: 80px;
+}
+
+.fieldLabel{
+    font-size: 1.3em;
+    padding:5px 0px;
+}
+@keyframes submit-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+  
