@@ -1,7 +1,7 @@
 # Application requirements:
 web application is a react-express app. with front end done in react-redux, and nodejs is the back-end server language with mongoDB backend.
 
-make sure you have Nodejs (v9.3.0) ,npm , react (v16.2.0) and mongoDB(v3.2.10) installed on your system
+make sure you have Nodejs ,npm , react and mongoDB installed on your system
 
 ## To run application
 
