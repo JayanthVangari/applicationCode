@@ -6,8 +6,7 @@ var Applications=require('../models/Applicants');
 var router = express.Router();
 
 router.use(bodyParser.json()).get('/api/',function(req,res,next){
-
-		res.send('Server');
+        res.send('Server');
 }).post('/api/',function(req,res,next) {
         var newApp = {
             "firstname": req.body.firstname,
@@ -17,7 +16,7 @@ router.use(bodyParser.json()).get('/api/',function(req,res,next){
             "code": '',
             "status": "Not submitted",
 
-        }
+        };
         Applications.create(newApp,function (err, resp) {
             if (err) {
                 // duplicate entry of email

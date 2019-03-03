@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import { connect } from 'react-redux';
-import classNames from 'classnames';
 import { Redirect } from "react-router";
 import './Home.css';
 import logo from '../../logo.svg';
@@ -40,8 +39,8 @@ class Home extends Component{
             submitted:false,
             errorClassName : false,
             errorFromServer:false,
-        },
-        this.onClick = this.onClick.bind(this)
+        };
+        this.onClick = this.onClick.bind(this);
     }
     
     handleChange = event => {

@@ -66,7 +66,6 @@ export const changeStatus = (obj, status) =>{
 /* backend call to fetch applicants data and dspatch appropriate actions*/
 export const loadApplicants = () =>{
     return (dispatch) => {
-        console.log("hree");
         fetch('http://localhost:8000/api/getAll/', {
                 method: 'GET',
                 headers,
